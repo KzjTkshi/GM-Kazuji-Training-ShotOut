@@ -1,0 +1,2 @@
+#define COLOR_RED       0xFF0000AA
+#define COLOR_PURPLE    0xC2A2DAAA
