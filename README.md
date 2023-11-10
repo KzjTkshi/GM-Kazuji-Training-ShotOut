@@ -1,3 +1,7 @@
+[![Kazuji Training Shot Out GM](https://cdn.discordapp.com/attachments/1139146928634990625/1172503006361686108/UXHaBqq.png?ex=65608d84&is=654e1884&hm=51ef37376dd8d0265ce3b3b7356b810a1f88cb60caa88242dbc10f9069ca481f&)]([https://discord.gg/SCJ94u2M6v])
+
+
+
 # GM-Kazuji-Training-ShotOut
 
 ```
@@ -7,8 +11,6 @@ KTGM Alias Kazuji Training GameMode, This gamemode is suitable for those of you 
 ```
 KTGM Alias Kazuji Training GameMode, Gamemode ini cocok untuk kalian yang ingin membuat server latihan tembak-menembak. Untuk fitur lebih lanjut, Anda dapat memeriksa gamemode
 ```
-
-[![Kazuji Training Shot Out GM](https://cdn.discordapp.com/attachments/1139146928634990625/1172503006361686108/UXHaBqq.png?ex=65608d84&is=654e1884&hm=51ef37376dd8d0265ce3b3b7356b810a1f88cb60caa88242dbc10f9069ca481f&)]([https://discord.gg/SCJ94u2M6v])
 
 # HOW TO RUN IN WINDOWS OR LINUX & HOSTING
 ```bash
