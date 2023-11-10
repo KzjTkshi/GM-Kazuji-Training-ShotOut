@@ -620,14 +620,13 @@ CMD:damage(playerid, params[])
 	if(sscanf(params, "u", dinfo)) return SendClientMessage(playerid, -1, "/damage [Player ID/Name]");
 	else
 	{
-		new dmgstring[1280], dtitle[64], line[256], injured = false;
+		new dmgstring[1280], dtitle[64], line[256];
 		new cdamage;
 		strcat(dmgstring, "Bodypart\tWeapon\tDamage\tWound\n");
 		for(cdamage = 0; cdamage < 20; ++cdamage)
 		{
 		    if(PlayerDamage[dinfo][DHit][cdamage] > 0)
 		    {
-		        injured = true;
 		        if(PlayerDamage[dinfo][armor] == 1)
 		        	format(line, sizeof(line), "%s\t%s\tDMG:%d\tArmor\n", Bodyname(PlayerDamage[dinfo][DHit][cdamage]), GunNameEx(PlayerDamage[dinfo][DHit][cdamage]), PlayerDamage[dinfo][WDamage][cdamage]);
 		        else
@@ -638,10 +637,7 @@ CMD:damage(playerid, params[])
 		
 		}
 		format(dtitle, sizeof(dtitle), "Damage Dari %s", PlayerName(dinfo));
-	    if(injured)
-			ShowPlayerDialog(playerid, DIALOG_DAMAGE, DIALOG_STYLE_TABLIST_HEADERS, dtitle, dmgstring, "Close", "");
-		else
-		    SendClientMessage(playerid, COLOR_RED, "ERROR : Player Sedang Tidak Injured!.");
+		ShowPlayerDialog(playerid, DIALOG_DAMAGE, DIALOG_STYLE_TABLIST_HEADERS, dtitle, dmgstring, "Close", "");
     }
 	return 1;
 }
